@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "b b",
+    "b b"
+  ],
+  "key": {
+    "b": "minecraft:bread"
+  },
+  "result": {
+    "id": "minecraft:chainmail_boots",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation": 24
+      },
+      "minecraft:consumable": {},
+      "minecraft:item_name": "バゲットのブーツ",
+      "minecraft:item_model": "baguette:baguette_boots",
+      "minecraft:equippable": {
+        "slot": "feet",
+        "equip_sound": "minecraft:entity.player.burp",
+        "asset_id": "baguette:baguette"
+      },
+      "minecraft:max_damage": 65,
+      "minecraft:rarity": "common"
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

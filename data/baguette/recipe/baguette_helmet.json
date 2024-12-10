@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "bbb",
+    "b b"
+  ],
+  "key": {
+    "b": "minecraft:bread"
+  },
+  "result": {
+    "id": "minecraft:chainmail_helmet",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 25,
+        "saturation": 30
+      },
+      "minecraft:consumable": {},
+      "minecraft:item_name": "バゲットのヘルメット",
+      "minecraft:item_model": "baguette:baguette_helmet",
+      "minecraft:equippable": {
+        "slot": "head",
+        "equip_sound": "minecraft:entity.player.burp",
+        "asset_id": "baguette:baguette"
+      },
+      "minecraft:max_damage": 55,
+      "minecraft:rarity": "common"
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

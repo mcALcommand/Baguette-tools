@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "bb ",
+      " b ",
+      " b "
+    ],
+    "key": {
+      "b": "minecraft:bread"
+    },
+    "result": {
+      "id": "minecraft:wooden_hoe",
+      "components": {
+        "minecraft:food": {
+          "nutrition": 20,
+          "saturation": 24
+        },
+        "minecraft:consumable": {},
+        "minecraft:item_name": "バゲットのクワ",
+        "minecraft:item_model": "baguette:baguette_hoe"
+      },
+      "count": 1
+    },
+    "show_notification": true
+  }
